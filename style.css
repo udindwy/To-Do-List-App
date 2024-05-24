@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Lato:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: #bac9a9;
+}
+
+.container {
+  width: 590px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 15px;
+  color: #fff;
+}
+
+.header .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.header .title i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.header .title span {
+  font-size: 18px;
+}
+
+.header .deskripsi {
+  font-size: 13px;
+}
+
+.content {
+  padding: 15px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.input-control {
+  width: 100%;
+  display: block;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #bac9a9;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-color {
+  color: orange;
+}
+
+.text-red {
+  color: red;
+}
+
+.task-item.done span {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}

@@ -1,32 +1,32 @@
 # To-Do-List-App 
-To Do List App adalah aplikasi web sederhana untuk mengelola daftar tugas harian. Aplikasi ini dikembangkan menggunakan PHP, MySQL, HTML, CSS, dan sedikit JavaScript.
+To Do List App is a simple web application for managing daily task lists. This app is developed using PHP, MySQL, HTML, CSS, and a bit of JavaScript.
 
-## Fitur
-- Menambahkan tugas baru
-- Menandai tugas sebagai selesai atau belum selesai
-- Mengedit tugas yang sudah ada
-- Menghapus tugas dari daftar
+## Features
+- Add new tasks
+- Mark tasks as completed or not completed
+- Edit existing tasks
+- Delete tasks from the list
 
-## Teknologi yang Digunakan
+## Technologies Used
 - PHP
 - MySQL
 - HTML
 - CSS
 - JavaScript
 
-## Persyaratan
-- Web server (seperti Apache atau Nginx)
+## Requirements
+- Web server (such as Apache or Nginx)
 - PHP
 - MySQL
 
-## Instalasi
-1. Kloning repositori ini ke dalam direktori web server Anda.
-2. Buat database MySQL baru dan impor file `todolist.sql` yang terdapat di dalam direktori `database`.
-3. Ubah konfigurasi koneksi database di file `koneksi.php` sesuai dengan pengaturan MySQL Anda.
-4. Akses aplikasi melalui browser.
+## Installation
+1. Clone this repository into your web server directory.
+2. Create a new MySQL database and import the `todolist.sql` file located in the `database` directory.
+3. Update the database connection configuration in the `koneksi.php` file according to your MySQL settings.
+4. Access the application through your browser.
 
-## Kontribusi
-Jika Anda ingin berkontribusi pada proyek ini, silakan ajukan pull request. Kami sangat terbuka terhadap saran dan perbaikan dari komunitas.
+## Contribution
+If you wish to contribute to this project, please submit a pull request. We welcome suggestions and improvements from the community.
 
-## Lisensi
-Proyek ini dilisensikan di bawah MIT License.
+## License
+This project is licensed under the MIT License.

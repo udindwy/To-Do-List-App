@@ -28,5 +28,3 @@ To Do List App is a simple web application for managing daily task lists. This a
 ## Contribution
 If you wish to contribute to this project, please submit a pull request. We welcome suggestions and improvements from the community.
 
-## License
-This project is licensed under the MIT License.

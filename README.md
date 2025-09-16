@@ -1,30 +1,62 @@
-# To-Do-List-App 
-To Do List App is a simple web application for managing daily task lists. This app is developed using PHP, MySQL, HTML, CSS, and a bit of JavaScript.
+# To-Do-List App
 
-## Features
-- Add new tasks
-- Mark tasks as completed or not completed
-- Edit existing tasks
-- Delete tasks from the list
+This is a web-based **Task Management Application**, designed to help users manage daily activities by creating, updating, and organizing task lists efficiently.
 
-## Technologies Used
-- PHP
-- MySQL
-- HTML
-- CSS
-- JavaScript
+---
 
-## Requirements
-- Web server (such as Apache or Nginx)
-- PHP
-- MySQL
+## 🎯 Key Features
 
-## Installation
-1. Clone this repository into your web server directory.
-2. Create a new MySQL database and import the `todolist.sql` file located in the `database` directory.
-3. Update the database connection configuration in the `koneksi.php` file according to your MySQL settings.
-4. Access the application through your browser.
+* **Task Management**
 
-## Contribution
-If you wish to contribute to this project, please submit a pull request. We welcome suggestions and improvements from the community.
+  * Add new tasks with descriptions.
+  * Mark tasks as **completed** or **not completed**.
+  * Edit existing tasks easily.
+  * Delete tasks permanently from the list.
+
+* **Dynamic & Responsive Pages**
+
+  * Simple and clean user interface.
+  * Responsive layout accessible across devices (desktop & mobile).
+  * Built with lightweight PHP and MySQL backend.
+
+---
+
+## 👥 User Roles
+
+### 1. User
+
+* Create and manage personal tasks.
+* Track progress of daily activities.
+* Update or remove tasks anytime.
+
+### 2. Visitor
+
+* Access the landing page.
+* Can register/login to start managing tasks.
+
+---
+
+## 📦 System Workflow
+
+1. **User Registration/Login**
+   User accesses the app and logs in (if authentication is added).
+
+2. **Task Creation**
+   User creates a new task and saves it into the MySQL database.
+
+3. **Task Updates**
+   User can mark tasks as **completed**, edit, or delete them.
+
+4. **Database Management**
+   All tasks are stored and updated in MySQL, with PHP handling the server-side logic.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Backend:** PHP + MySQL
+* **Frontend:** HTML, CSS, JavaScript
+* **Web Server:** Apache/Nginx
+* **Database Management:** phpMyAdmin/MySQL CLI
+
 
